@@ -1,62 +1,35 @@
-# NBA Sports Betting Using Machine Learning 🏀
-<img src="https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting/blob/master/Screenshots/output.png" width="1010" height="292" />
+![BuyCasinoScripts.com](https://casinoscripts.shop/wp-content/uploads/2024/03/Frame-588-1024x127.png)
 
-A machine learning AI used to predict the winners and under/overs of NBA games. Takes all team data from the 2007-08 season to current season, matched with odds of those games, using a neural network to predict winning bets for today's games. Achieves ~69% accuracy on money lines and ~55% on under/overs. Outputs expected value for teams money lines to provide better insight. The fraction of your bankroll to bet based on the Kelly Criterion is also outputted. Note that a popular, less risky approach is to bet 50% of the stake recommended by the Kelly Criterion.
-## Packages Used
+# Welcome to BuyCasinoScripts.com!
 
-Use Python 3.11. In particular the packages/libraries used are...
+## Your One-Stop Shop for Premium Casino Software
 
-* Tensorflow - Machine learning library
-* XGBoost - Gradient boosting framework
-* Numpy - Package for scientific computing in Python
-* Pandas - Data manipulation and analysis
-* Colorama - Color text output
-* Tqdm - Progress bars
-* Requests - Http library
-* Scikit_learn - Machine learning library
 
-## Usage
+![image 492](https://github.com/user-attachments/assets/fb3b626d-04cf-4fc6-a0ea-577bcdb6e63c)
 
-<img src="https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting/blob/master/Screenshots/Expected_value.png" width="1010" height="424" />
 
-Make sure all packages above are installed.
 
-```bash
-$ git clone https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting.git
-$ cd NBA-Machine-Learning-Sports-Betting
-$ pip3 install -r requirements.txt
-$ python3 main.py -xgb -odds=fanduel
-```
+At [BuyCasinoScripts.com](https://buycasinoscripts.com), we specialize in providing top-notch casino software solutions for your online gaming needs. Whether you're looking to launch a new online casino or enhance your existing platform, we've got you covered with our wide range of products and services.
 
-Odds data will be automatically fetched from sbrodds if the -odds option is provided with a sportsbook.  Options include: fanduel, draftkings, betmgm, pointsbet, caesars, wynn, bet_rivers_ny
+### What We Offer:
+- **Premade Code:** Ready-to-use casino scripts to get your site up and running quickly.
+- **Sports Betting Software:** Robust and scalable solutions for offering sports betting services.
+- **Slot Machine Source Code:** High-quality, customizable slot machine games to attract and engage players.
+- **Custom Development:** Tailored software solutions to meet your unique business requirements.
 
-If `-odds` is not given, enter the under/over and odds for today's games manually after starting the script.
+### Why Choose Us?
+- **Expertise:** Years of experience in the online gaming industry.
+- **Quality:** Top-tier, secure, and reliable software.
+- **Support:** Comprehensive support to help you every step of the way.
 
-Optionally, you can add '-kc' as a command line argument to see the recommended fraction of your bankroll to wager based on the model's edge
+### Get in Touch
+For inquiries and support, feel free to contact us via:
+- **Telegram:** [t.me/athenian](https://t.me/athenian)
+- **Discord:** [discord.gg/cryptocasino](https://discord.gg/cryptocasino)
+- **Email:** [support@buycasinoscripts.com](mailto:support@buycasinoscripts.com)
 
-## Flask Web App
-<img src="https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting/blob/master/Screenshots/Flask-App.png" width="922" height="580" />
+Visit [BuyCasinoScripts.com](https://buycasinoscripts.com) today to explore our offerings and take your online casino to the next level!
 
-This repo also includes a small Flask application to help view the data from this tool in the browser.  To run it:
-```
-cd Flask
-flask --debug run
-```
+---
 
-## Getting new data and training models
-```
-# Create dataset with the latest data for 2023-24 season
-cd src/Process-Data
-python -m Get_Data
-python -m Get_Odds_Data
-python -m Create_Games
-
-# Train models
-cd ../Train-Models
-python -m XGBoost_Model_ML
-python -m XGBoost_Model_UO
-```
-
-## Contributing
-
-All contributions welcomed and encouraged.
+Thank you for considering BuyCasinoScripts.com for your casino software needs. We look forward to helping you achieve success in the online gaming industry.
