@@ -1,11 +1,11 @@
-![BuyCasinoScripts.com](https://casinoscripts.shop/wp-content/uploads/2024/03/Frame-588-1024x127.png)
+![Casino scripts development](https://casinoscripts.shop/wp-content/uploads/2024/03/Frame-588-1024x127.png)
 
 # Welcome to BuyCasinoScripts.com!
 
 ## Your One-Stop Shop for Premium Casino Software
 
 
-![image 492](https://github.com/user-attachments/assets/fb3b626d-04cf-4fc6-a0ea-577bcdb6e63c)
+![Online crypto casino scripts](https://github.com/user-attachments/assets/fb3b626d-04cf-4fc6-a0ea-577bcdb6e63c)
 
 
 
